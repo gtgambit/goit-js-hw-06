@@ -4,9 +4,9 @@
 //<br />
 //<span id="text">Abracadabra!</span>
 
-const magicIn = document.querySelector("#font-size-control");
-const magicOut = document.querySelector("#text");
+const rangeControl = document.querySelector("#font-size-control");
+const textEl = document.querySelector("#text");
 
-magicIn.addEventListener("change", (event) => {
-  magicOut.style.fontSize = `${event.target.value}px`;
+rangeControl.addEventListener("change", (event) => {
+  textEl.style.fontSize = `${event.target.value}px`;
 });
