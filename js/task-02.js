@@ -14,16 +14,6 @@ const ingredients = [
   "Condiments",
 ];
 
-//const mainEl = document.querySelector(`#ingredients`);
-//const ingredientsEl = [];
-//ingredients.forEach((el) => {
-//  const superLi = document.createElement("li");
-//  superLi.classList.add("item");
-//  superLi.textContent = el;
-//  ingredientsEl.push(superLi);
-//});
-//mainEl.append(...ingredientsEl);
-
 const ingredientEl = document.querySelector(`#ingredients`);
 const ingredientsList = [];
 

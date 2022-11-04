@@ -25,16 +25,3 @@ const decrement = () => {
 };
 incrementBtn.addEventListener("click", increment);
 decrementBtn.addEventListener("click", decrement);
-
-//function increment() {
-//  counterValue += 1;
-//  document.getElementById("value").innerHTML = counterValue;
-//}
-
-//function decrement() {
-//  counterValue -= 1;
-//  document.getElementById("value").innerHTML = counterValue;
-//}
-
-//minusBtn.addEventListener("click", decrement);
-//plusBtn.addEventListener("click", increment);
