@@ -29,7 +29,7 @@ const handleSubmit = (event) => {
     return alert("Все поля должны быть заполнены!");
   }
   const udesDetails = { email: email.value, Password: password.value };
-  console.log(userDetail);
+  console.log(userDetails);
   event.currentTarget.reset();
 };
 
