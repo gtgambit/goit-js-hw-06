@@ -14,14 +14,25 @@ const ingredients = [
   "Condiments",
 ];
 
-const ingredientEl = document.querySelector(`#ingredients`);
-const ingredientsList = [];
+const ingredientsElement = document.querySelector("#ingredients");
+const itemsList = [];
 
-ingredients.forEach((el) => {
-  const ingredienstItem = document.createElement("li");
-  ingredienstItem.classList.add("item");
-  ingredienstItem.textContent = el;
-  ingredientsList.push(ingredienstItem);
+ingredients.forEach((element) => {
+  const ingredientsItem = document.createElement("li");
+  ingredientsItem.classList.add("item");
+  ingredientsItem.textContent = element;
+  itemsList.push(ingredientsItem);
 });
+ingredientsElement.append(...itemsList);
 
-ingredientEl.append(...ingredientsList);
+//const ingredientEl = document.querySelector(`#ingredients`);
+//const ingredientsList = [];
+
+//ingredients.forEach((el) => {
+//  const ingredienstItem = document.createElement("li");
+//  ingredienstItem.classList.add("item");
+//  ingredienstItem.textContent = el;
+//  ingredientsList.push(ingredienstItem);
+//});
+
+//ingredientEl.append(...ingredientsList);
